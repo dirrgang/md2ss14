@@ -1,5 +1,5 @@
 import sys
-from converter import md_to_ss14
+from .converter import md_to_ss14
 
 def main():
     if len(sys.argv) < 2:
